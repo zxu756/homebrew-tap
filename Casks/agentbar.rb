@@ -1,6 +1,6 @@
 cask "agentbar" do
   version "0.1.0"
-  sha256 "1388014a36a55b1976e7d8eeab3d77f90ebb6252e5b51d35e967d4646cbe3b50"
+  sha256 "fe4c19f84d49f9ca4ac339cd8772e95d6bd49cd5fff542cf794ae913759ff7a1"
 
   url "https://github.com/zxu756/AgentBar/releases/download/v#{version}/AgentBar-v#{version}-macos-arm64.zip"
   name "AgentBar"

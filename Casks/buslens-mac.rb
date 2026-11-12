@@ -1,6 +1,6 @@
 cask "buslens-mac" do
   version "0.1.0"
-  sha256 "8e38459d58df70a54f1a8e7182b74ea3b1d1d545c945956c06ff9c1822cbb183"
+  sha256 "46e50063d5a58c38b2a0aa90e8bb861f2b91ed6128feccc9965ac6ddb08695ae"
 
   url "https://github.com/zxu756/BusLensMac/releases/download/v#{version}/BusLensMac-v#{version}-macos-arm64.zip"
   name "BusLens Mac"
