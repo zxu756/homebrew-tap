@@ -10,6 +10,12 @@ brew tap zxu756/tap
 # Multi-agent coding CLI local telemetry monitor (Claude Code, Codex, OpenCode, Vibe, Antigravity)
 brew install --cask zxu756/tap/agentbar
 
+# LaunchAgents, LaunchDaemons & orphaned AI daemon RSS ledger with SHA-256 reversible freeze
+brew install --cask zxu756/tap/launchlens
+
+# Thunderbolt, USB4 & USB-C negotiated link-speed and cable bottleneck analyzer
+brew install --cask zxu756/tap/buslens-mac
+
 # Native NVMe/SATA SMART health, temperature & remaining-life monitor
 brew install --cask zxu756/tap/crystaldiskinfo-mac
 
@@ -22,6 +28,8 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | Cask | Version | Minimum macOS | Description |
 |---|---|---|---|
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.1.0` | macOS 14+ (`arm64`) | Zero-network, read-only menu bar & Swift Charts telemetry monitor for coding CLIs & `agent-relay` |
+| [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.1.0` | macOS 14+ (`arm64`) | Persistent LaunchAgents, orphan AI/dev daemons & bound ports RSS ledger with SHA-256 reversible freeze |
+| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.1.0` | macOS 14+ (`arm64`) | Thunderbolt, USB4 & USB-C negotiated link-rate, cable bottleneck & Power Delivery bench |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | Disk health, temperature, remaining life, SMART table & 30-day history via `smartctl` |
 | [`crystaldiskmark-mac`](https://github.com/zxu756/CrystalDiskMarkMac) | `0.1.0` | macOS 14+ (`arm64`) | Four-profile sequential & random storage benchmark with C++17 POSIX engine |
 
