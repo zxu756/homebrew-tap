@@ -13,6 +13,9 @@ brew install --cask zxu756/tap/agentvm
 # Multi-vendor coding agent parallel workbench, 3-way semantic AST merger & wiretap proxy
 brew install --cask zxu756/tap/relayide
 
+# Zero-hallucination LaTeX & Typst academic IDE, PRISMA 2020 screener & citation provenance LSP
+brew install --cask zxu756/tap/scholaros
+
 # 7-day macOS system flight recorder, 5-track DVR oscilloscope & external socket ledger
 brew install --cask zxu756/tap/chronomac
 
@@ -44,6 +47,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 |---|---|---|---|
 | [`agentvm`](https://github.com/zxu756/AgentVM) | `1.0.0` | macOS 14+ (`arm64`) | Native Apple Silicon microVM hypervisor (`Virtualization.framework`), sub-20ms APFS `clonefile(2)` CoW branching, user-space L2 DPI firewall & `AVM1` Vsock workbench |
 | [`relayide`](https://github.com/zxu756/RelayIDE) | `1.0.0` | macOS 14+ (`arm64`) | Multi-vendor coding agent PTY multiplexer (`claude`/`codex`/`agy`/`vibe`), 5-language 3-Way Semantic AST Merger, `FSEvents` territory fences & HTTP/SSE wiretap budget proxy |
+| [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.0.0` | macOS 14+ (`arm64`) | Zero-hallucination LaTeX & Typst academic IDE (LSP 3.17, CSL 1.0.2, `PDFKit` FTS5 `BM25` bounding-box provenance, PRISMA 2020 DerSimonian-Laird & `ERR_UNVERIFIED_CITATION` firewall) |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.1.0` | macOS 14+ (`arm64`) | 7-day non-root system flight recorder, 5-track DVR oscilloscope, post-mortem process blame & external socket ledger |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.1.0` | macOS 14+ (`arm64`) | Read-only `.app`, Universal Mach-O, Electron `app.asar` & WASM anatomy workbench, version bloat diff & Ghidra pseudo-C reader |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.1.0` | macOS 14+ (`arm64`) | Local-first LaTeX & Typst academic evidence IDE with Citation Firewall, `PDFKit` FTS5 `BM25` provenance & `ERR_UNVERIFIED_CITATION` MCP |
