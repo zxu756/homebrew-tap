@@ -51,15 +51,15 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | Cask | Version | Minimum macOS | Description |
 |---|---|---|---|
 | [`agentvm`](https://github.com/zxu756/AgentVM) | `1.1.0` | macOS 14+ (`arm64`) | Native Apple Silicon microVM hypervisor (`Virtualization.framework`), sub-20ms APFS `clonefile(2)` CoW branching, user-space L2 DPI firewall & `AVM1` Vsock workbench (live `中文 / EN` UI) |
-| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.0.0` | macOS 14+ (`arm64`) | Zero-CLI-wrapper binary reverse-engineering IDE (Universal/Mach-O 64/ARM64E PAC/ELF/PE/WASM, Sugiyama CFG, Cytron SSA Pseudo-C decompiler, Sparse CoW Hex & inline ARM64 patcher) |
-| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.0.0` | macOS 14+ (`arm64`) | Multi-vendor coding agent PTY multiplexer (`claude`/`codex`/`agy`/`vibe`), 5-language 3-Way Semantic AST Merger, `FSEvents` territory fences & HTTP/SSE wiretap budget proxy |
+| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.1.0` | macOS 14+ (`arm64`) | Zero-CLI-wrapper binary reverse-engineering IDE (Universal/Mach-O 64/ARM64E PAC/ELF/PE/WASM, Sugiyama CFG, Cytron SSA Pseudo-C decompiler, Sparse CoW Hex & inline ARM64 patcher, live `中文 / EN` UI) |
+| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.1.0` | macOS 14+ (`arm64`) | Multi-vendor coding agent PTY multiplexer (`claude`/`codex`/`agy`/`vibe`), 5-language 3-Way Semantic AST Merger, `FSEvents` territory fences & HTTP/SSE wiretap budget proxy (live `中文 / EN` UI) |
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.1.0` | macOS 14+ (`arm64`) | Zero-hallucination LaTeX & Typst academic IDE (LSP 3.17, CSL 1.0.2, `PDFKit` FTS5 `BM25` bounding-box provenance, PRISMA 2020 DerSimonian-Laird & `ERR_UNVERIFIED_CITATION` firewall, live `中文 / EN` UI) |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.1.0` | macOS 14+ (`arm64`) | 7-day non-root system flight recorder, 5-track DVR oscilloscope, post-mortem process blame & external socket ledger |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.1.0` | macOS 14+ (`arm64`) | Read-only `.app`, Universal Mach-O, Electron `app.asar` & WASM anatomy workbench, version bloat diff & Ghidra pseudo-C reader |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.1.0` | macOS 14+ (`arm64`) | Local-first LaTeX & Typst academic evidence IDE with Citation Firewall, `PDFKit` FTS5 `BM25` provenance & `ERR_UNVERIFIED_CITATION` MCP |
-| [`agentbar`](https://github.com/zxu756/AgentBar) | `0.1.0` | macOS 14+ (`arm64`) | Zero-network, read-only menu bar & Swift Charts telemetry monitor for coding CLIs & `agent-relay` |
-| [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.1.0` | macOS 14+ (`arm64`) | Persistent LaunchAgents, orphan AI/dev daemons & bound ports RSS ledger with SHA-256 reversible freeze |
-| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.1.0` | macOS 14+ (`arm64`) | Thunderbolt, USB4 & USB-C negotiated link-rate, cable bottleneck & Power Delivery bench |
+| [`agentbar`](https://github.com/zxu756/AgentBar) | `0.2.0` | macOS 14+ (`arm64`) | Zero-network, read-only menu bar & Swift Charts telemetry monitor for coding CLIs & `agent-relay` (live `中文 / EN` UI) |
+| [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.2.0` | macOS 14+ (`arm64`) | Persistent LaunchAgents, orphan AI/dev daemons & bound ports RSS ledger with SHA-256 reversible freeze (live `中文 / EN` UI) |
+| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.2.0` | macOS 14+ (`arm64`) | Thunderbolt, USB4 & USB-C negotiated link-rate, cable bottleneck & Power Delivery bench (live `中文 / EN` UI) |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | Disk health, temperature, remaining life, SMART table & 30-day history via `smartctl` |
 | [`crystaldiskmark-mac`](https://github.com/zxu756/CrystalDiskMarkMac) | `0.1.0` | macOS 14+ (`arm64`) | Four-profile sequential & random storage benchmark with C++17 POSIX engine |
 

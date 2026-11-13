@@ -1,6 +1,6 @@
 cask "relayide" do
-  version "1.0.0"
-  sha256 "7d11583b4fd68b8bd05971878e0df4e16b49a6681f24ae6366d869428b8bcc22"
+  version "1.1.0"
+  sha256 "1205e199d4701d0f181a535c0ed81650f4fdbbecc77cda3b65f7efda6a50b1f4"
 
   url "https://github.com/zxu756/RelayIDE/releases/download/v#{version}/RelayIDE-v#{version}-macos-arm64.zip"
   name "RelayIDE"
