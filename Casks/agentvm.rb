@@ -1,6 +1,6 @@
 cask "agentvm" do
-  version "1.0.0"
-  sha256 "a23c5dad532ad646b7c68e6257625f1110e4b244735ecc978bea194992d27995"
+  version "1.1.0"
+  sha256 "acafcf6a97646b3cf198bda49e2fd45656754db1cdc95f127847279698c29cfa"
 
   url "https://github.com/zxu756/AgentVM/releases/download/v#{version}/AgentVM-v#{version}-macos-arm64.zip"
   name "AgentVM"
@@ -20,6 +20,6 @@ cask "agentvm" do
   end
 
   zap trash: [
-    "~/Library/Preferences/io.zxu756.AgentVM.plist",
+    "~/Library/Preferences/io.github.zxu756.AgentVM.plist",
   ]
 end
