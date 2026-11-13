@@ -1,6 +1,6 @@
 cask "citestudio" do
-  version "0.1.0"
-  sha256 "21c61832702743787265f33b4771663ff8058528843bacd2fc305913bb0df020"
+  version "0.2.0"
+  sha256 "6b2209257d28e01b8ac706fb1f14dd0559b217b169cb5fbfc446243f31cf80d5"
 
   url "https://github.com/zxu756/CiteStudio/releases/download/v#{version}/CiteStudio-v#{version}-macos-arm64.zip"
   name "CiteStudio"

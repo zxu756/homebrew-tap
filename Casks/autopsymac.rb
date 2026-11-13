@@ -1,6 +1,6 @@
 cask "autopsymac" do
-  version "0.1.0"
-  sha256 "2113dc439ce664ed3b29cc4d2d858804af37e51e281a11fcf2f576b83edc6bb3"
+  version "0.2.0"
+  sha256 "395598a530fa7b269c9170d41f6a67b750e7c41d4d068308a368a30e4ad12b1b"
 
   url "https://github.com/zxu756/AutopsyMac/releases/download/v#{version}/AutopsyMac-v#{version}-macos-arm64.zip"
   name "AutopsyMac"

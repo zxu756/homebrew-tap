@@ -1,6 +1,6 @@
 cask "chronomac" do
-  version "0.1.0"
-  sha256 "a598863d9322709218cfcc87b3d3289def42bcf692092016a589d90671d833c8"
+  version "0.2.0"
+  sha256 "fcf8eb3d273394a6e40f0f01fb99e53c09740a66d8c2377ac36416364c5d51f6"
 
   url "https://github.com/zxu756/ChronoMac/releases/download/v#{version}/ChronoMac-v#{version}-macos-arm64.zip"
   name "ChronoMac"
