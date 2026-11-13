@@ -1,6 +1,6 @@
 cask "machgraph" do
-  version "1.0.0"
-  sha256 "8a1451e6d6472177e1b484719b04f2b8e1399a74b8aeaf1b251c9b9273ac3dd3"
+  version "1.1.0"
+  sha256 "87d7a53971bf2fa0ca157de5eafb6aa93727b94eedc6417d50d80c64a7bb003f"
 
   url "https://github.com/zxu756/MachGraph/releases/download/v#{version}/MachGraph-v#{version}-macos-arm64.zip"
   name "MachGraph"
