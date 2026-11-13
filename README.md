@@ -10,6 +10,9 @@ brew tap zxu756/tap
 # 7-day macOS system flight recorder, 5-track DVR oscilloscope & external socket ledger
 brew install --cask zxu756/tap/chronomac
 
+# Read-only macOS app, Mach-O, Electron ASAR & WASM anatomy workbench with Ghidra pseudo-C
+brew install --cask zxu756/tap/autopsymac
+
 # Multi-agent coding CLI local telemetry monitor (Claude Code, Codex, OpenCode, Vibe, Antigravity)
 brew install --cask zxu756/tap/agentbar
 
@@ -31,6 +34,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | Cask | Version | Minimum macOS | Description |
 |---|---|---|---|
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.1.0` | macOS 14+ (`arm64`) | 7-day non-root system flight recorder, 5-track DVR oscilloscope, post-mortem process blame & external socket ledger |
+| [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.1.0` | macOS 14+ (`arm64`) | Read-only `.app`, Universal Mach-O, Electron `app.asar` & WASM anatomy workbench, version bloat diff & Ghidra pseudo-C reader |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.1.0` | macOS 14+ (`arm64`) | Zero-network, read-only menu bar & Swift Charts telemetry monitor for coding CLIs & `agent-relay` |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.1.0` | macOS 14+ (`arm64`) | Persistent LaunchAgents, orphan AI/dev daemons & bound ports RSS ledger with SHA-256 reversible freeze |
 | [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.1.0` | macOS 14+ (`arm64`) | Thunderbolt, USB4 & USB-C negotiated link-rate, cable bottleneck & Power Delivery bench |
