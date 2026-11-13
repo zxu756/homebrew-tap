@@ -10,6 +10,9 @@ brew tap zxu756/tap
 # Native Apple Silicon microVM sandbox, sub-20ms APFS CoW branching & L2 DPI workbench
 brew install --cask zxu756/tap/agentvm
 
+# Zero-CLI-wrapper native binary reverse-engineering IDE, ARM64 SSA decompiler & patch workbench
+brew install --cask zxu756/tap/machgraph
+
 # Multi-vendor coding agent parallel workbench, 3-way semantic AST merger & wiretap proxy
 brew install --cask zxu756/tap/relayide
 
@@ -46,6 +49,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | Cask | Version | Minimum macOS | Description |
 |---|---|---|---|
 | [`agentvm`](https://github.com/zxu756/AgentVM) | `1.0.0` | macOS 14+ (`arm64`) | Native Apple Silicon microVM hypervisor (`Virtualization.framework`), sub-20ms APFS `clonefile(2)` CoW branching, user-space L2 DPI firewall & `AVM1` Vsock workbench |
+| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.0.0` | macOS 14+ (`arm64`) | Zero-CLI-wrapper binary reverse-engineering IDE (Universal/Mach-O 64/ARM64E PAC/ELF/PE/WASM, Sugiyama CFG, Cytron SSA Pseudo-C decompiler, Sparse CoW Hex & inline ARM64 patcher) |
 | [`relayide`](https://github.com/zxu756/RelayIDE) | `1.0.0` | macOS 14+ (`arm64`) | Multi-vendor coding agent PTY multiplexer (`claude`/`codex`/`agy`/`vibe`), 5-language 3-Way Semantic AST Merger, `FSEvents` territory fences & HTTP/SSE wiretap budget proxy |
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.0.0` | macOS 14+ (`arm64`) | Zero-hallucination LaTeX & Typst academic IDE (LSP 3.17, CSL 1.0.2, `PDFKit` FTS5 `BM25` bounding-box provenance, PRISMA 2020 DerSimonian-Laird & `ERR_UNVERIFIED_CITATION` firewall) |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.1.0` | macOS 14+ (`arm64`) | 7-day non-root system flight recorder, 5-track DVR oscilloscope, post-mortem process blame & external socket ledger |
