@@ -13,6 +13,9 @@ brew install --cask zxu756/tap/chronomac
 # Read-only macOS app, Mach-O, Electron ASAR & WASM anatomy workbench with Ghidra pseudo-C
 brew install --cask zxu756/tap/autopsymac
 
+# Zero-hallucination LaTeX & Typst evidence IDE with Citation Firewall, PDFKit BM25 & Tectonic SyncTeX
+brew install --cask zxu756/tap/citestudio
+
 # Multi-agent coding CLI local telemetry monitor (Claude Code, Codex, OpenCode, Vibe, Antigravity)
 brew install --cask zxu756/tap/agentbar
 
@@ -35,6 +38,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 |---|---|---|---|
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.1.0` | macOS 14+ (`arm64`) | 7-day non-root system flight recorder, 5-track DVR oscilloscope, post-mortem process blame & external socket ledger |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.1.0` | macOS 14+ (`arm64`) | Read-only `.app`, Universal Mach-O, Electron `app.asar` & WASM anatomy workbench, version bloat diff & Ghidra pseudo-C reader |
+| [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.1.0` | macOS 14+ (`arm64`) | Local-first LaTeX & Typst academic evidence IDE with Citation Firewall, `PDFKit` FTS5 `BM25` provenance & `ERR_UNVERIFIED_CITATION` MCP |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.1.0` | macOS 14+ (`arm64`) | Zero-network, read-only menu bar & Swift Charts telemetry monitor for coding CLIs & `agent-relay` |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.1.0` | macOS 14+ (`arm64`) | Persistent LaunchAgents, orphan AI/dev daemons & bound ports RSS ledger with SHA-256 reversible freeze |
 | [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.1.0` | macOS 14+ (`arm64`) | Thunderbolt, USB4 & USB-C negotiated link-rate, cable bottleneck & Power Delivery bench |
