@@ -9,16 +9,16 @@ Official [Homebrew](https://brew.sh) tap for native macOS developer & systems ut
 ```bash
 brew tap zxu756/tap
 
-# Native Apple Silicon microVM sandbox, sub-20ms APFS CoW branching & L2 DPI workbench
+# APFS Copy-on-Write disk & snapshot lineage manager and NoCloud ISO builder (preview; cannot boot a VM yet)
 brew install --cask zxu756/tap/agentvm
 
-# Zero-CLI-wrapper native binary reverse-engineering IDE, ARM64 SSA decompiler & patch workbench
+# Pure-Swift ARM64/ARM64e disassembler, Mach-O binary inspector, inline assembler & MCP server
 brew install --cask zxu756/tap/machgraph
 
-# Multi-vendor coding agent parallel workbench, 3-way semantic AST merger & wiretap proxy
+# Read-only workspace inspector, MCP ownership checker & experimental 3-way merge (preview; does not launch agents)
 brew install --cask zxu756/tap/relayide
 
-# Zero-hallucination LaTeX & Typst academic IDE, PRISMA 2020 screener & citation provenance LSP
+# Bilingual LaTeX & BibTeX parser, APA/IEEE citation formatter, and stdio MCP server
 brew install --cask zxu756/tap/scholaros
 
 # 7-day macOS system flight recorder, 5-track DVR oscilloscope & external socket ledger
@@ -50,10 +50,10 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 
 | Cask | Version | Minimum macOS | Description |
 |---|---|---|---|
-| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.1.0` | macOS 14+ (`arm64`) | Native Apple Silicon microVM hypervisor (`Virtualization.framework`), sub-20ms APFS `clonefile(2)` CoW branching, user-space L2 DPI firewall & `AVM1` Vsock workbench (live `中文 / EN` UI) |
-| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.1.0` | macOS 14+ (`arm64`) | Zero-CLI-wrapper binary reverse-engineering IDE (Universal/Mach-O 64/ARM64E PAC/ELF/PE/WASM, Sugiyama CFG, Cytron SSA Pseudo-C decompiler, Sparse CoW Hex & inline ARM64 patcher, live `中文 / EN` UI) |
-| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.1.0` | macOS 14+ (`arm64`) | Multi-vendor coding agent PTY multiplexer (`claude`/`codex`/`agy`/`vibe`), 5-language 3-Way Semantic AST Merger, `FSEvents` territory fences & HTTP/SSE wiretap budget proxy (live `中文 / EN` UI) |
-| [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.1.0` | macOS 14+ (`arm64`) | Zero-hallucination LaTeX & Typst academic IDE (LSP 3.17, CSL 1.0.2, `PDFKit` FTS5 `BM25` bounding-box provenance, PRISMA 2020 DerSimonian-Laird & `ERR_UNVERIFIED_CITATION` firewall, live `中文 / EN` UI) |
+| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.2.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite workspace store, APFS `clonefile(2)` CoW disks & snapshot lineage, NoCloud ISO-9660 builder, CLI & stdio MCP server (`中文 / EN`). Preview: cannot boot a VM yet (real Linux guest boot is scheduled for M1) |
+| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.2.0` | macOS 14+ (`arm64`) | Pure-Swift Universal/Mach-O 64 inspector, ARM64/ARM64e PAC disassembler, dyld chained fixups & CodeSign verifier, inline ARM64 mini-assembler & MCP server (`中文 / EN`) |
+| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.2.0` | macOS 14+ (`arm64`) | Preview. Read-only inspection of a `.relayproj` workspace store (`status`, `lanes`, `dag-waves`, bilingual HTML export) and a 2-tool MCP server (`relay_check_ownership`, experimental `relay_semantic_merge`). This version does not launch agents and cannot create lanes from the command line |
+| [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.2.0` | macOS 14+ (`arm64`) | Bilingual (`中文 / EN`) LaTeX & BibTeX parser, APA 7th / IEEE reference formatter, citation syntax check without online lookup & JSON-RPC 2.0 MCP server (preview; the desktop window only shows demo data) |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.2.0` | macOS 14+ (`arm64`) | 7-day non-root system flight recorder, 5-track DVR oscilloscope, post-mortem process blame & external socket ledger (live `中文 / EN` UI) |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.2.0` | macOS 14+ (`arm64`) | Read-only `.app`, Universal Mach-O, Electron `app.asar` & WASM anatomy workbench, version bloat diff & Ghidra pseudo-C reader (live `中文 / EN` UI) |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.2.0` | macOS 14+ (`arm64`) | Local-first LaTeX & Typst academic evidence IDE with Citation Firewall, `PDFKit` FTS5 `BM25` provenance & `ERR_UNVERIFIED_CITATION` MCP (live `中文 / EN` UI) |

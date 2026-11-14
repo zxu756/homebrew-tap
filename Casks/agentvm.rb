@@ -1,10 +1,10 @@
 cask "agentvm" do
-  version "1.1.0"
-  sha256 "acafcf6a97646b3cf198bda49e2fd45656754db1cdc95f127847279698c29cfa"
+  version "1.2.0"
+  sha256 "f1a0f4c01f57d86f91ee6e0daf42664a6dba548ef4af475f71f80a97aaac253c"
 
   url "https://github.com/zxu756/AgentVM/releases/download/v#{version}/AgentVM-v#{version}-macos-arm64.zip"
   name "AgentVM"
-  desc "Native Apple Silicon microVM sandbox, sub-20ms APFS CoW branching & L2 DPI workbench"
+  desc "APFS Copy-on-Write disk & snapshot lineage manager, ISO builder, and CLI/MCP"
   homepage "https://github.com/zxu756/AgentVM"
 
   depends_on macos: ">= :sonoma"

@@ -1,10 +1,10 @@
 cask "scholaros" do
-  version "1.1.0"
-  sha256 "34108477e5db3c12ccf4b653952ac82142c1ae9f98a1c12e832857f67c624352"
+  version "1.2.0"
+  sha256 "8596edcb8a636381d99cb609bf102990b27007ffdabb4dd23bb400a3e34c9ada"
 
   url "https://github.com/zxu756/ScholarOS/releases/download/v#{version}/ScholarOS-v#{version}-macos-arm64.zip"
   name "ScholarOS"
-  desc "Zero-hallucination LaTeX & Typst academic IDE, PRISMA 2020 screener & citation provenance LSP"
+  desc "Bilingual LaTeX and BibTeX parser, APA/IEEE citation formatter, and MCP server"
   homepage "https://github.com/zxu756/ScholarOS"
 
   depends_on macos: ">= :sonoma"

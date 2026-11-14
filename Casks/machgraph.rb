@@ -1,10 +1,10 @@
 cask "machgraph" do
-  version "1.1.0"
-  sha256 "87d7a53971bf2fa0ca157de5eafb6aa93727b94eedc6417d50d80c64a7bb003f"
+  version "1.2.0"
+  sha256 "aa794bbaa2be7bbb0b91ea11ca1e201b0e65966f50a0e5ec5fb7c8ebff1be472"
 
   url "https://github.com/zxu756/MachGraph/releases/download/v#{version}/MachGraph-v#{version}-macos-arm64.zip"
   name "MachGraph"
-  desc "Zero-CLI-wrapper native binary reverse-engineering IDE, ARM64 SSA decompiler & patch workbench"
+  desc "Pure-Swift ARM64/ARM64e disassembler, Mach-O binary inspector, and MCP server"
   homepage "https://github.com/zxu756/MachGraph"
 
   depends_on macos: ">= :sonoma"

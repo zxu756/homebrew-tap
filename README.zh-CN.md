@@ -9,16 +9,16 @@
 ```bash
 brew tap zxu756/tap
 
-# Apple Silicon 微虚拟机沙盒、亚 20ms APFS 写时复制分支树与用户态 L2 DPI 防火墙
+# APFS 写时复制磁盘与快照血统管理、NoCloud ISO 构建（预览版；还不能启动虚拟机）
 brew install --cask zxu756/tap/agentvm
 
-# 零外部包装器原生二进制逆向 IDE、ARM64 SSA 反编译器与内联汇编热修补工作台
+# 纯 Swift ARM64/ARM64e 反汇编器、Mach-O 二进制检视、内联汇编与 MCP 服务端
 brew install --cask zxu756/tap/machgraph
 
-# 多厂商 Coding Agent 并行 PTY 指挥舱、5 语言三路 AST 语义合并与 Wiretap 预算网关
+# 只读的工作区检视、MCP 所有权校验与实验性三路合并（预览版；不会启动 agent）
 brew install --cask zxu756/tap/relayide
 
-# 零幻觉 LaTeX & Typst 学术证据 IDE、PRISMA 2020 双盲筛查与 PDF 坐标级溯源 LSP
+# 中英双语 LaTeX & BibTeX 解析器、APA/IEEE 引文格式化工具与 MCP 服务端
 brew install --cask zxu756/tap/scholaros
 
 # 7 天免 Root 系统飞行记录仪、5 轨 DVR 示波器与外联套接字账本
@@ -50,10 +50,10 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 
 | Cask | 版本 | 最低系统要求 | 核心功能简介 |
 |---|---|---|---|
-| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.1.0` | macOS 14+ (`arm64`) | Apple Silicon 微虚拟机管理程序（`Virtualization.framework`）、APFS `clonefile(2)` 快照分支、L2 DPI 防火墙与 `AVM1` Vsock 工作台（支持 `中文 / EN` 实时切换） |
-| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.1.0` | macOS 14+ (`arm64`) | 零外部 CLI 包装器二进制逆向 IDE（Universal/Mach-O 64/ARM64E PAC/ELF/PE/WASM、Sugiyama CFG、Cytron SSA 伪 C 反编译、稀疏 CoW Hex 与内联 ARM64 补丁，支持 `中文 / EN`） |
-| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.1.0` | macOS 14+ (`arm64`) | 多厂商 Coding Agent 并行 PTY 复用器（`claude`/`codex`/`agy`/`vibe`）、5 语言三路 AST 语义合并、`FSEvents` 领地围栏与 HTTP/SSE 预算网关（支持 `中文 / EN`） |
-| [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.1.0` | macOS 14+ (`arm64`) | 零幻觉 LaTeX & Typst 学术 IDE（LSP 3.17、CSL 1.0.2、`PDFKit` FTS5 `BM25` 坐标框溯源、PRISMA 2020 荟萃分析与 `ERR_UNVERIFIED_CITATION` 防火墙，支持 `中文 / EN`） |
+| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.2.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite 工作区存储、APFS `clonefile(2)` 写时复制磁盘与快照血统、NoCloud ISO-9660 生成器、命令行与 stdio MCP 服务（`中文 / EN`）。预览版：还不能启动虚拟机（真实 Linux 客户机启动排在 M1） |
+| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.2.0` | macOS 14+ (`arm64`) | 纯 Swift Universal/Mach-O 64 解析、ARM64/ARM64e PAC 反汇编、dyld 链式修正与代码签名校验、内联 ARM64 微型汇编及 MCP 服务端（支持 `中文 / EN`） |
+| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.2.0` | macOS 14+ (`arm64`) | 预览版。只读检视 `.relayproj` 工作区存储（`status`、`lanes`、`dag-waves`、双语 HTML 导出），以及 2 个工具的 MCP 服务（`relay_check_ownership`、实验性的 `relay_semantic_merge`）。这一版不会启动 agent，也还不能通过命令行创建通道 |
+| [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.2.0` | macOS 14+ (`arm64`) | 中英双语（`中文 / EN`）LaTeX & BibTeX 解析、APA 7th / IEEE 参考文献格式化、不联网的引文格式检查与 JSON-RPC 2.0 MCP 服务端（预览版；桌面窗口目前只能看演示数据） |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.2.0` | macOS 14+ (`arm64`) | 7 天免 Root 系统飞行记录仪、5 轨 DVR 示波器、事后进程归因与外联套接字账本（支持 `中文 / EN`） |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.2.0` | macOS 14+ (`arm64`) | 只读 `.app`、Universal Mach-O、Electron `app.asar` 与 WASM 解剖工作台、版本膨胀对比与 Ghidra 伪 C 查看器（支持 `中文 / EN`） |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.2.0` | macOS 14+ (`arm64`) | 本地优先 LaTeX & Typst 学术证据工作台、引文防火墙与 `PDFKit` FTS5 `BM25` 溯源（支持 `中文 / EN`） |
