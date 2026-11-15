@@ -57,7 +57,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.2.0` | macOS 14+ (`arm64`) | 7 天免 Root 系统飞行记录仪、5 轨 DVR 示波器、事后进程归因与外联套接字账本（支持 `中文 / EN`） |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.2.0` | macOS 14+ (`arm64`) | 只读 `.app`、Universal Mach-O、Electron `app.asar` 与 WASM 解剖工作台、版本膨胀对比与 Ghidra 伪 C 查看器（支持 `中文 / EN`） |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.2.0` | macOS 14+ (`arm64`) | 本地优先 LaTeX & Typst 学术证据工作台、引文防火墙与 `PDFKit` FTS5 `BM25` 溯源（支持 `中文 / EN`） |
-| [`agentbar`](https://github.com/zxu756/AgentBar) | `0.2.0` | macOS 14+ (`arm64`) | 零联网只读菜单栏与 Swift Charts 遥测看板，支持多家 Coding CLI 与 `agent-relay`（支持 `中文 / EN`） |
+| [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | 只读的菜单栏与命令行账本：统计 Claude Code、Codex、OpenCode、Mistral Vibe 的本地 token 用量和按 API 价折算的花费（支持 `中文 / EN`） |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.2.0` | macOS 14+ (`arm64`) | LaunchAgents 自启项、孤儿 AI 守护进程与监听端口 RSS 账本，内置 SHA-256 可逆冻结（支持 `中文 / EN`） |
 | [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.2.0` | macOS 14+ (`arm64`) | Thunderbolt、USB4 与 USB-C 协商速率、线材瓶颈诊断与 Power Delivery 拓扑台（支持 `中文 / EN`） |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | 基于 `smartctl` 的磁盘健康度、温度、剩余寿命、SMART 属性表与 30 天历史曲线 |
