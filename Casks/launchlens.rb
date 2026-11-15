@@ -1,10 +1,10 @@
 cask "launchlens" do
-  version "0.2.0"
-  sha256 "68708eb52bd35043c02a396ed5136336607ce69a8cab7c9a6f0d5236f92d0f7a"
+  version "0.3.0"
+  sha256 "12f7ae43f88bb69a3f89f883b296a874718d72ef6cad7c2eaf900ab90cea9af6"
 
   url "https://github.com/zxu756/LaunchLens/releases/download/v#{version}/LaunchLens-v#{version}-macos-arm64.zip"
   name "LaunchLens"
-  desc "Native LaunchAgents, LaunchDaemons & orphaned AI daemon RSS ledger with reversible freeze"
+  desc "List launchd startup items and freeze or restore user LaunchAgents"
   homepage "https://github.com/zxu756/LaunchLens"
 
   depends_on macos: ">= :sonoma"
