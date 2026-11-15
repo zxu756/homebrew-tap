@@ -59,7 +59,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.3.0` | macOS 14+ (`arm64`) | 对照 Crossref 和 OpenAlex 核对 BibTeX 参考文献（macOS 应用、命令行、MCP）；查询失败报未验证，不报成编造（支持 `中文 / EN`） |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | 只读的菜单栏与命令行账本：统计 Claude Code、Codex、OpenCode、Mistral Vibe 的本地 token 用量和按 API 价折算的花费（支持 `中文 / EN`） |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.3.0` | macOS 14+ (`arm64`) | 列出 launchd 启动项，冻结或恢复用户级 LaunchAgent（备份校验 SHA-256，失败可回滚）；冻结与恢复用替身 launchctl 测过，还没有在真实 launchd 上测（支持 `中文 / EN`） |
-| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.2.0` | macOS 14+ (`arm64`) | Thunderbolt、USB4 与 USB-C 协商速率、线材瓶颈诊断与 Power Delivery 拓扑台（支持 `中文 / EN`） |
+| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.3.0` | macOS 14+ (`arm64`) | 列出雷雳、USB4 和 USB 设备各自协商到的链路速率；设备是不是被线缆或集线器拖慢，这一版还不做判断（支持 `中文 / EN`） |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | 基于 `smartctl` 的磁盘健康度、温度、剩余寿命、SMART 属性表与 30 天历史曲线 |
 | [`crystaldiskmark-mac`](https://github.com/zxu756/CrystalDiskMarkMac) | `0.1.0` | macOS 14+ (`arm64`) | 四档顺序与随机存储读写基准测试（C++17 POSIX 引擎） |
 

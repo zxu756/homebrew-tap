@@ -59,7 +59,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.3.0` | macOS 14+ (`arm64`) | Checks BibTeX references against Crossref and OpenAlex (macOS app, CLI, MCP); a failed lookup is reported as unverified, not as fabricated (live `中文 / EN` UI) |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | Read-only menu bar and CLI ledger of local token usage and API-equivalent cost for Claude Code, Codex, OpenCode and Mistral Vibe (live `中文 / EN` UI) |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.3.0` | macOS 14+ (`arm64`) | Lists launchd startup items and freezes or restores user LaunchAgents with a SHA-256-checked backup and rollback; freeze/restore is tested with a stand-in launchctl, not yet on real launchd (live `中文 / EN` UI) |
-| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.2.0` | macOS 14+ (`arm64`) | Thunderbolt, USB4 & USB-C negotiated link-rate, cable bottleneck & Power Delivery bench (live `中文 / EN` UI) |
+| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.3.0` | macOS 14+ (`arm64`) | Lists Thunderbolt, USB4 and USB devices with each one's negotiated link speed; whether a cable or hub is slowing a device down is not judged yet (live `中文 / EN` UI) |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | Disk health, temperature, remaining life, SMART table & 30-day history via `smartctl` |
 | [`crystaldiskmark-mac`](https://github.com/zxu756/CrystalDiskMarkMac) | `0.1.0` | macOS 14+ (`arm64`) | Four-profile sequential & random storage benchmark with C++17 POSIX engine |
 
