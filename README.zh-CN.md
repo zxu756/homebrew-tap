@@ -58,7 +58,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.3.0` | macOS 14+ (`arm64`) | 只读的 macOS `.app` 解剖工具：体积树图、链接的动态库、entitlement；这一版还不扫 `app.asar` 内部、Frameworks 和 Helper 应用（支持 `中文 / EN`） |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.3.0` | macOS 14+ (`arm64`) | 对照 Crossref 和 OpenAlex 核对 BibTeX 参考文献（macOS 应用、命令行、MCP）；查询失败报未验证，不报成编造（支持 `中文 / EN`） |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | 只读的菜单栏与命令行账本：统计 Claude Code、Codex、OpenCode、Mistral Vibe 的本地 token 用量和按 API 价折算的花费（支持 `中文 / EN`） |
-| [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.3.0` | macOS 14+ (`arm64`) | 列出 launchd 启动项，冻结或恢复用户级 LaunchAgent（备份校验 SHA-256，失败可回滚）；冻结与恢复用替身 launchctl 测过，还没有在真实 launchd 上测（支持 `中文 / EN`） |
+| [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.4.0` | macOS 14+ (`arm64`) | 列出 launchd 启动项，按进程树汇总每个服务的内存，识别孤儿进程（`ppid == 1`），冻结或恢复用户级 LaunchAgent（备份校验 SHA-256，失败可回滚）；冻结与恢复在真实 launchd 上跑过一次（一台机器、一个用户级启动项），其余用替身 launchctl 测过（支持 `中文 / EN`） |
 | [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.3.0` | macOS 14+ (`arm64`) | 列出雷雳、USB4 和 USB 设备各自协商到的链路速率；设备是不是被线缆或集线器拖慢，这一版还不做判断（支持 `中文 / EN`） |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | 基于 `smartctl` 的磁盘健康度、温度、剩余寿命、SMART 属性表与 30 天历史曲线 |
 | [`crystaldiskmark-mac`](https://github.com/zxu756/CrystalDiskMarkMac) | `0.1.0` | macOS 14+ (`arm64`) | 四档顺序与随机存储读写基准测试（C++17 POSIX 引擎） |
