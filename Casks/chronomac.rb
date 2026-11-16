@@ -1,10 +1,10 @@
 cask "chronomac" do
-  version "0.2.0"
-  sha256 "fcf8eb3d273394a6e40f0f01fb99e53c09740a66d8c2377ac36416364c5d51f6"
+  version "0.3.0"
+  sha256 "a6e56d579bc02501786dd875b3d7754e379fbb4e5ffc8afdf68b3782a5732cb9"
 
   url "https://github.com/zxu756/ChronoMac/releases/download/v#{version}/ChronoMac-v#{version}-macos-arm64.zip"
   name "ChronoMac"
-  desc "7-day macOS system flight recorder, 5-track DVR oscilloscope & socket ledger"
+  desc "macOS app that records CPU, memory and network over time to trace spikes"
   homepage "https://github.com/zxu756/ChronoMac"
 
   depends_on macos: ">= :sonoma"
