@@ -50,9 +50,9 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 
 | Cask | 版本 | 最低系统要求 | 核心功能简介 |
 |---|---|---|---|
-| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.2.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite 工作区存储、APFS `clonefile(2)` 写时复制磁盘与快照血统、NoCloud ISO-9660 生成器、命令行与 stdio MCP 服务（`中文 / EN`）。预览版：还不能启动虚拟机（真实 Linux 客户机启动排在 M1） |
-| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.2.0` | macOS 14+ (`arm64`) | 纯 Swift Universal/Mach-O 64 解析、ARM64/ARM64e PAC 反汇编、dyld 链式修正与代码签名校验、内联 ARM64 微型汇编及 MCP 服务端（支持 `中文 / EN`） |
-| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.2.0` | macOS 14+ (`arm64`) | 预览版。只读检视 `.relayproj` 工作区存储（`status`、`lanes`、`dag-waves`、双语 HTML 导出），以及 2 个工具的 MCP 服务（`relay_check_ownership`、实验性的 `relay_semantic_merge`）。这一版不会启动 agent，也还不能通过命令行创建通道 |
+| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.3.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite 工作区存储、APFS `clonefile(2)` 写时复制磁盘与快照血统、NoCloud ISO-9660 生成器、命令行与 stdio MCP 服务（`中文 / EN`）。`agentvm image pull` 加 `agentvm run <vm> -- <命令>` 能不开窗口地启动一台真实的 Debian 12 客户机执行一条命令；`up`、`exec` 和桌面应用还不操作真实虚拟机（M2、M4） |
+| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.3.0` | macOS 14+ (`arm64`) | 纯 Swift Universal/Mach-O 64 解析、ARM64/ARM64e PAC 反汇编、dyld 链式修正与代码签名校验、内联 ARM64 微型汇编及 MCP 服务端（支持 `中文 / EN`）。助记符在 1,278 个系统二进制上和 `llvm-objdump` 逐条对照过，报告在仓库里 |
+| [`relayide`](https://github.com/zxu756/RelayIDE) | `1.3.0` | macOS 14+ (`arm64`) | 预览版。`relayide run <plan.json>` 经 `agent-relay` 在各自独立的 git worktree 里启动 coding agent 命令行，并把每条通道提交到它自己的分支；还不合并、不执行 `verify`、没有预算。另有只读检视 `.relayproj` 工作区存储和 2 个工具的 MCP 服务。桌面应用不启动 agent |
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.2.0` | macOS 14+ (`arm64`) | 中英双语（`中文 / EN`）LaTeX & BibTeX 解析、APA 7th / IEEE 参考文献格式化、不联网的引文格式检查与 JSON-RPC 2.0 MCP 服务端（预览版；桌面窗口目前只能看演示数据） |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.3.0` | macOS 14+ (`arm64`) | 应用开着时记录 CPU、内存、网络的时间序列，事后查是哪个进程造成了尖峰；这一版还没有无界面的后台记录（支持 `中文 / EN`） |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.3.0` | macOS 14+ (`arm64`) | 只读的 macOS `.app` 解剖工具：体积树图、链接的动态库、entitlement；这一版还不扫 `app.asar` 内部、Frameworks 和 Helper 应用（支持 `中文 / EN`） |

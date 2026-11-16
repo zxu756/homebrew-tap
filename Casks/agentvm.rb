@@ -1,10 +1,10 @@
 cask "agentvm" do
-  version "1.2.0"
-  sha256 "f1a0f4c01f57d86f91ee6e0daf42664a6dba548ef4af475f71f80a97aaac253c"
+  version "1.3.0"
+  sha256 "436ae94ff7bbba4a440670d7402328f173f45dc3b52040064a8d74892bab26c2"
 
   url "https://github.com/zxu756/AgentVM/releases/download/v#{version}/AgentVM-v#{version}-macos-arm64.zip"
   name "AgentVM"
-  desc "APFS Copy-on-Write disk & snapshot lineage manager, ISO builder, and CLI/MCP"
+  desc "Boots Debian 12 guests for one-shot commands; APFS disks, snapshots, CLI and MCP"
   homepage "https://github.com/zxu756/AgentVM"
 
   depends_on macos: ">= :sonoma"
