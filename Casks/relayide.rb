@@ -1,10 +1,10 @@
 cask "relayide" do
-  version "1.2.0"
-  sha256 "8ac2872796fc4415f3d4c812a87237eb3297203686000825ea43b8df57ac613b"
+  version "1.3.0"
+  sha256 "de25edf6bf33e62892748b03d86f74e505ac8edbf66397d46a2b2353c449d567"
 
   url "https://github.com/zxu756/RelayIDE/releases/download/v#{version}/RelayIDE-v#{version}-macos-arm64.zip"
   name "RelayIDE"
-  desc "Read-only workspace inspector, MCP ownership checker, experimental 3-way merge"
+  desc "Runs coding-agent CLIs in git worktrees via agent-relay; workspace store and MCP"
   homepage "https://github.com/zxu756/RelayIDE"
 
   depends_on macos: ">= :sonoma"
