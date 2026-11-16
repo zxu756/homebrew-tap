@@ -1,10 +1,10 @@
 cask "scholaros" do
-  version "1.2.0"
-  sha256 "8596edcb8a636381d99cb609bf102990b27007ffdabb4dd23bb400a3e34c9ada"
+  version "1.3.0"
+  sha256 "99e1b949c884411cf2d204b335ed386166453e04a20ba3416a39a6f9d726fa19"
 
   url "https://github.com/zxu756/ScholarOS/releases/download/v#{version}/ScholarOS-v#{version}-macos-arm64.zip"
   name "ScholarOS"
-  desc "Bilingual LaTeX and BibTeX parser, APA/IEEE citation formatter, and MCP server"
+  desc "Checks .bib references against Crossref, OpenAlex, doi.org, arXiv and PubMed"
   homepage "https://github.com/zxu756/ScholarOS"
 
   depends_on macos: ">= :sonoma"
