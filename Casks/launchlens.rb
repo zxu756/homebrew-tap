@@ -1,6 +1,6 @@
 cask "launchlens" do
   version "0.3.0"
-  sha256 "12f7ae43f88bb69a3f89f883b296a874718d72ef6cad7c2eaf900ab90cea9af6"
+  sha256 "bde093807f2f90679b61b080e4a72f2c55d710f0c441f9134dda29e781dbe6a1"
 
   url "https://github.com/zxu756/LaunchLens/releases/download/v#{version}/LaunchLens-v#{version}-macos-arm64.zip"
   name "LaunchLens"
