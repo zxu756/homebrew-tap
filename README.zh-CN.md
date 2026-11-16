@@ -55,7 +55,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`relayide`](https://github.com/zxu756/RelayIDE) | `1.2.0` | macOS 14+ (`arm64`) | 预览版。只读检视 `.relayproj` 工作区存储（`status`、`lanes`、`dag-waves`、双语 HTML 导出），以及 2 个工具的 MCP 服务（`relay_check_ownership`、实验性的 `relay_semantic_merge`）。这一版不会启动 agent，也还不能通过命令行创建通道 |
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.2.0` | macOS 14+ (`arm64`) | 中英双语（`中文 / EN`）LaTeX & BibTeX 解析、APA 7th / IEEE 参考文献格式化、不联网的引文格式检查与 JSON-RPC 2.0 MCP 服务端（预览版；桌面窗口目前只能看演示数据） |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.2.0` | macOS 14+ (`arm64`) | 7 天免 Root 系统飞行记录仪、5 轨 DVR 示波器、事后进程归因与外联套接字账本（支持 `中文 / EN`） |
-| [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.2.0` | macOS 14+ (`arm64`) | 只读 `.app`、Universal Mach-O、Electron `app.asar` 与 WASM 解剖工作台、版本膨胀对比与 Ghidra 伪 C 查看器（支持 `中文 / EN`） |
+| [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.3.0` | macOS 14+ (`arm64`) | 只读的 macOS `.app` 解剖工具：体积树图、链接的动态库、entitlement；这一版还不扫 `app.asar` 内部、Frameworks 和 Helper 应用（支持 `中文 / EN`） |
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.3.0` | macOS 14+ (`arm64`) | 对照 Crossref 和 OpenAlex 核对 BibTeX 参考文献（macOS 应用、命令行、MCP）；查询失败报未验证，不报成编造（支持 `中文 / EN`） |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | 只读的菜单栏与命令行账本：统计 Claude Code、Codex、OpenCode、Mistral Vibe 的本地 token 用量和按 API 价折算的花费（支持 `中文 / EN`） |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.3.0` | macOS 14+ (`arm64`) | 列出 launchd 启动项，冻结或恢复用户级 LaunchAgent（备份校验 SHA-256，失败可回滚）；冻结与恢复用替身 launchctl 测过，还没有在真实 launchd 上测（支持 `中文 / EN`） |
