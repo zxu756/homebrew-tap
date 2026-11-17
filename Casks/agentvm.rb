@@ -1,10 +1,10 @@
 cask "agentvm" do
-  version "1.3.0"
-  sha256 "436ae94ff7bbba4a440670d7402328f173f45dc3b52040064a8d74892bab26c2"
+  version "1.4.0"
+  sha256 "d4e19a9972e641496b684f7960ca6f17f2ac92dad4a78c1d9b25f86080df2787"
 
   url "https://github.com/zxu756/AgentVM/releases/download/v#{version}/AgentVM-v#{version}-macos-arm64.zip"
   name "AgentVM"
-  desc "Boots Debian 12 guests for one-shot commands; APFS disks, snapshots, CLI and MCP"
+  desc "Keeps Debian 12 VMs running between commands; APFS disks, snapshots, CLI and MCP"
   homepage "https://github.com/zxu756/AgentVM"
 
   depends_on macos: ">= :sonoma"

@@ -50,7 +50,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 
 | Cask | 版本 | 最低系统要求 | 核心功能简介 |
 |---|---|---|---|
-| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.3.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite 工作区存储、APFS `clonefile(2)` 写时复制磁盘与快照血统、NoCloud ISO-9660 生成器、命令行与 stdio MCP 服务（`中文 / EN`）。`agentvm image pull` 加 `agentvm run <vm> -- <命令>` 能不开窗口地启动一台真实的 Debian 12 客户机执行一条命令；`up`、`exec` 和桌面应用还不操作真实虚拟机（M2、M4） |
+| [`agentvm`](https://github.com/zxu756/AgentVM) | `1.4.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite 工作区存储、APFS `clonefile(2)` 写时复制磁盘与快照血统、NoCloud ISO-9660 生成器、命令行与 stdio MCP 服务（`中文 / EN`）。不开窗口地运行真实的 Debian 12 客户机：`agentvm run <vm> -- <命令>` 执行一条命令，或者经每个工作区一个的守护进程用 `up`、`exec`、`pause`、`resume`、`halt` 操作，`ps` 显示客户机的 CPU 和内存；桌面应用和 MCP 工具还不操作真实虚拟机（M4） |
 | [`machgraph`](https://github.com/zxu756/MachGraph) | `1.3.0` | macOS 14+ (`arm64`) | 纯 Swift Universal/Mach-O 64 解析、ARM64/ARM64e PAC 反汇编、dyld 链式修正与代码签名校验、内联 ARM64 微型汇编及 MCP 服务端（支持 `中文 / EN`）。助记符在 1,278 个系统二进制上和 `llvm-objdump` 逐条对照过，报告在仓库里 |
 | [`relayide`](https://github.com/zxu756/RelayIDE) | `1.4.0` | macOS 14+ (`arm64`) | 预览版。`relayide run <plan.json>` 经 `agent-relay` 在各自独立的 git worktree 里启动 coding agent 命令行，把每条通道提交到它自己的分支，再把各通道合并到一个集成分支并执行计划里的 `verify` 命令；从不合并进你的基线分支，还没有预算。另有只读检视 `.relayproj` 工作区存储和 2 个工具的 MCP 服务。桌面应用不启动 agent |
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.4.0` | macOS 14+ (`arm64`) | 中英双语（`中文 / EN`）引文核查：`scholaros verify-citations` 把 `.bib` 里每一条拿到 Crossref、OpenAlex、`doi.org`、arXiv、PubMed 去查，逐条报告已核查、有出入、不存在、已撤稿或没查成。在仓库自带的 480 条评测集上，86 条编造的文献 0 条被判为已核查。`scholaros diagnostics main.tex` 检查整份 LaTeX 稿件（包含的文件、引用、标签、`.bib` / `.bbl` / `thebibliography`），每个问题带文件和行号。另有 APA 7th / IEEE 格式化和 JSON-RPC 2.0 MCP 服务端；桌面窗口目前只能看演示数据 |
