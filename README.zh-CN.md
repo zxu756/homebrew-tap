@@ -59,7 +59,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.4.0` | macOS 14+ (`arm64`) | 对照 Crossref 和 OpenAlex 核对 BibTeX 参考文献；没有 DOI 的条目按题名检索并用四条规则判断（标题相似度、不是书评、年份差不超过 1、第一作者姓氏一致）；查询失败判"未验证"，不说成编造；准确率还没有量过（支持 `中文 / EN`） |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | 只读的菜单栏与命令行账本：统计 Claude Code、Codex、OpenCode、Mistral Vibe 的本地 token 用量和按 API 价折算的花费（支持 `中文 / EN`） |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.4.0` | macOS 14+ (`arm64`) | 列出 launchd 启动项，按进程树汇总每个服务的内存，识别孤儿进程（`ppid == 1`），冻结或恢复用户级 LaunchAgent（备份校验 SHA-256，失败可回滚）；冻结与恢复在真实 launchd 上跑过一次（一台机器、一个用户级启动项），其余用替身 launchctl 测过（支持 `中文 / EN`） |
-| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.3.0` | macOS 14+ (`arm64`) | 列出雷雳、USB4 和 USB 设备各自协商到的链路速率；设备是不是被线缆或集线器拖慢，这一版还不做判断（支持 `中文 / EN`） |
+| [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.4.0` | macOS 14+ (`arm64`) | 列出雷雳、USB4 和 USB 设备各自协商到的链路速率及所在的物理端口；还会把速率和设备 `ioreg` 描述符所示能力比对，但「被线缆、集线器或端口拖慢」的结论大多标为推断，从没有在真正被限速的真机上检验过（支持 `中文 / EN`） |
 | [`crystaldiskinfo-mac`](https://github.com/zxu756/CrystalDiskInfoMac) | `0.1.0` | macOS 14+ (`arm64`) | 基于 `smartctl` 的磁盘健康度、温度、剩余寿命、SMART 属性表与 30 天历史曲线 |
 | [`crystaldiskmark-mac`](https://github.com/zxu756/CrystalDiskMarkMac) | `0.1.0` | macOS 14+ (`arm64`) | 四档顺序与随机存储读写基准测试（C++17 POSIX 引擎） |
 
