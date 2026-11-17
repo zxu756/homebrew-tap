@@ -4,7 +4,7 @@ cask "relayide" do
 
   url "https://github.com/zxu756/RelayIDE/releases/download/v#{version}/RelayIDE-v#{version}-macos-arm64.zip"
   name "RelayIDE"
-  desc "Runs coding-agent CLIs in git worktrees via agent-relay, then merges and verifies"
+  desc "Runs coding-agent CLIs in git worktrees via agent-relay, merges and verifies"
   homepage "https://github.com/zxu756/RelayIDE"
 
   depends_on macos: ">= :sonoma"
