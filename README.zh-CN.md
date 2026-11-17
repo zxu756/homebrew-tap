@@ -56,7 +56,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.3.0` | macOS 14+ (`arm64`) | 中英双语（`中文 / EN`）引文核查：`scholaros verify-citations` 把 `.bib` 里每一条拿到 Crossref、OpenAlex、`doi.org`、arXiv、PubMed 去查，逐条报告已核查、有出入、不存在、已撤稿或没查成。在仓库自带的 480 条评测集上，86 条编造的文献 0 条被判为已核查。另有 LaTeX 与 BibTeX 解析、APA 7th / IEEE 格式化和 JSON-RPC 2.0 MCP 服务端；桌面窗口目前只能看演示数据 |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.3.0` | macOS 14+ (`arm64`) | 应用开着时记录 CPU、内存、网络的时间序列，事后查是哪个进程造成了尖峰；这一版还没有无界面的后台记录（支持 `中文 / EN`） |
 | [`autopsymac`](https://github.com/zxu756/AutopsyMac) | `0.4.0` | macOS 14+ (`arm64`) | 只读的 macOS `.app` 解剖工具：密钥样式字符串和外连端点（含 `app.asar`、Frameworks、Helper 应用内部）、代码签名与 entitlement 检查、字节合计准确的体积树图（支持 `中文 / EN`） |
-| [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.3.0` | macOS 14+ (`arm64`) | 对照 Crossref 和 OpenAlex 核对 BibTeX 参考文献（macOS 应用、命令行、MCP）；查询失败报未验证，不报成编造（支持 `中文 / EN`） |
+| [`citestudio`](https://github.com/zxu756/CiteStudio) | `0.4.0` | macOS 14+ (`arm64`) | 对照 Crossref 和 OpenAlex 核对 BibTeX 参考文献；没有 DOI 的条目按题名检索并用四条规则判断（标题相似度、不是书评、年份差不超过 1、第一作者姓氏一致）；查询失败判"未验证"，不说成编造；准确率还没有量过（支持 `中文 / EN`） |
 | [`agentbar`](https://github.com/zxu756/AgentBar) | `0.3.0` | macOS 14+ (`arm64`) | 只读的菜单栏与命令行账本：统计 Claude Code、Codex、OpenCode、Mistral Vibe 的本地 token 用量和按 API 价折算的花费（支持 `中文 / EN`） |
 | [`launchlens`](https://github.com/zxu756/LaunchLens) | `0.4.0` | macOS 14+ (`arm64`) | 列出 launchd 启动项，按进程树汇总每个服务的内存，识别孤儿进程（`ppid == 1`），冻结或恢复用户级 LaunchAgent（备份校验 SHA-256，失败可回滚）；冻结与恢复在真实 launchd 上跑过一次（一台机器、一个用户级启动项），其余用替身 launchctl 测过（支持 `中文 / EN`） |
 | [`buslens-mac`](https://github.com/zxu756/BusLensMac) | `0.3.0` | macOS 14+ (`arm64`) | 列出雷雳、USB4 和 USB 设备各自协商到的链路速率；设备是不是被线缆或集线器拖慢，这一版还不做判断（支持 `中文 / EN`） |
