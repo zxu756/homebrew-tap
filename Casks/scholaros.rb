@@ -1,6 +1,6 @@
 cask "scholaros" do
-  version "1.4.0"
-  sha256 "336a4355bd5bd18288ae90d287c87cc3d51e5aa71effbc27aeb90d94ec048142"
+  version "1.4.1"
+  sha256 "e4fe502eae3efa4714f5457383f318dbc169c1aeb9a67287b919d9b7a8da95ab"
 
   url "https://github.com/zxu756/ScholarOS/releases/download/v#{version}/ScholarOS-v#{version}-macos-arm64.zip"
   name "ScholarOS"
