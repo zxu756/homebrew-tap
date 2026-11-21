@@ -1,10 +1,10 @@
 cask "machgraph" do
-  version "1.5.0"
-  sha256 "5cb35ce0ba2c789336ed6697d2f9d222f09a7602986fd6c005a6700f7a8fa05d"
+  version "1.6.0"
+  sha256 "2901e91ebfb0f607081c17f27e8496b5a7fe5f753cbc455f41b8c277be430e36"
 
   url "https://github.com/zxu756/MachGraph/releases/download/v#{version}/MachGraph-v#{version}-macos-arm64.zip"
   name "MachGraph"
-  desc "ARM64/ARM64e disassembler, Mach-O inspector, symbol demangler, and MCP server"
+  desc "ARM64/ARM64e disassembler, CFG, Mach-O inspector, demangler, and MCP server"
   homepage "https://github.com/zxu756/MachGraph"
 
   depends_on macos: ">= :sonoma"
