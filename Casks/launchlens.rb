@@ -1,10 +1,10 @@
 cask "launchlens" do
-  version "0.4.0"
-  sha256 "36242015dc0c32a3642e62b80cc59a419bba09b621d2daa86b39f45e22372d43"
+  version "0.5.0"
+  sha256 "48d148cf73cc0ddd3d314de72e5a9c12bdfc954c4d522c9894a98b1b72eaaa2a"
 
   url "https://github.com/zxu756/LaunchLens/releases/download/v#{version}/LaunchLens-v#{version}-macos-arm64.zip"
   name "LaunchLens"
-  desc "List launchd items, find orphan processes, freeze or restore user LaunchAgents"
+  desc "List launchd items and orphans, diff session snapshots, freeze LaunchAgents"
   homepage "https://github.com/zxu756/LaunchLens"
 
   depends_on macos: ">= :sonoma"
