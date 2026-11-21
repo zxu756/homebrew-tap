@@ -12,7 +12,7 @@ brew tap zxu756/tap
 # APFS 写时复制磁盘与快照血统管理、NoCloud ISO 构建（预览版；还不能启动虚拟机）
 brew install --cask zxu756/tap/agentvm
 
-# 纯 Swift ARM64/ARM64e 反汇编器、Mach-O 二进制检视、内联汇编与 MCP 服务端
+# ARM64/ARM64e 反汇编器、Mach-O 二进制与元数据检视、符号解混淆、内联汇编与 MCP 服务端
 brew install --cask zxu756/tap/machgraph
 
 # 只读的工作区检视、MCP 所有权校验与实验性三路合并（预览版；不会启动 agent）
@@ -51,7 +51,7 @@ brew install --cask zxu756/tap/crystaldiskmark-mac
 | Cask | 版本 | 最低系统要求 | 核心功能简介 |
 |---|---|---|---|
 | [`agentvm`](https://github.com/zxu756/AgentVM) | `1.4.0` | macOS 14+ (`arm64`) | `.agentvm` SQLite 工作区存储、APFS `clonefile(2)` 写时复制磁盘与快照血统、NoCloud ISO-9660 生成器、命令行与 stdio MCP 服务（`中文 / EN`）。不开窗口地运行真实的 Debian 12 客户机：`agentvm run <vm> -- <命令>` 执行一条命令，或者经每个工作区一个的守护进程用 `up`、`exec`、`pause`、`resume`、`halt` 操作，`ps` 显示客户机的 CPU 和内存；桌面应用和 MCP 工具还不操作真实虚拟机（M4） |
-| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.4.0` | macOS 14+ (`arm64`) | 纯 Swift Universal/Mach-O 64 解析、ARM64/ARM64e PAC/AdvSIMD/Crypto 反汇编、dyld 链式修正与代码签名校验、ARM64 微型汇编（`machgraph asm` / `patch-asm`）及 stdio MCP 服务端（支持 `中文 / EN`）；助记符（0 条归一规则）与操作数在 1,278 个系统二进制上和 `llvm-objdump` 逐条对照过（65,969,542 / 65,969,684 一致，判错 0，未识别 0，报告在仓库里），`standard` 语料原有形态均可经 `machgraph asm` 回环汇编，新解码的 AdvSIMD 形态报 `unsupported` |
+| [`machgraph`](https://github.com/zxu756/MachGraph) | `1.5.0` | macOS 14+ (`arm64`) | Universal/Mach-O 64 解析、ARM64/ARM64e PAC/AdvSIMD/Crypto 反汇编、进程内 Swift 与 C++ 解混淆（`demangle`）、ObjC 元数据（`objc`）、全表交叉引用（`xrefs`）、原生类型代码签名与 entitlements 校验（`codesign`）、ARM64 微型汇编（`machgraph asm` / `patch-asm`）及 stdio MCP 服务端（支持 `中文 / EN`）；在 1,278 个系统二进制上，反汇编助记符（0 条归一规则）与操作数和 `llvm-objdump` 逐条对照过（65,969,542 / 65,969,684 一致，判错 0，未识别 0），M3 六项检查（`symbols`、`dylibs`、`entitlements`、`demangle`、`xrefs` `bl` 调用边、`objc`）对照 Apple 参考工具合计 0 差异（报告在仓库里），`standard` 语料原有形态均可经 `machgraph asm` 回环汇编，新解码的 AdvSIMD 形态报 `unsupported` |
 | [`relayide`](https://github.com/zxu756/RelayIDE) | `1.4.0` | macOS 14+ (`arm64`) | 预览版。`relayide run <plan.json>` 经 `agent-relay` 在各自独立的 git worktree 里启动 coding agent 命令行，把每条通道提交到它自己的分支，再把各通道合并到一个集成分支并执行计划里的 `verify` 命令；从不合并进你的基线分支，还没有预算。另有只读检视 `.relayproj` 工作区存储和 2 个工具的 MCP 服务。桌面应用不启动 agent |
 | [`scholaros`](https://github.com/zxu756/ScholarOS) | `1.4.1` | macOS 14+ (`arm64`) | 中英双语（`中文 / EN`）引文核查：`scholaros verify-citations` 把 `.bib` 里每一条拿到 Crossref、OpenAlex、`doi.org`、arXiv、PubMed 去查，逐条报告已核查、有出入、不存在、已撤稿或没查成。在仓库自带的 480 条评测集上，86 条编造的文献 0 条被判为已核查。`scholaros diagnostics main.tex` 检查整份 LaTeX 稿件（包含的文件、引用、标签、`.bib` / `.bbl` / `thebibliography`），每个问题带文件和行号。另有 APA 7th / IEEE 格式化和 JSON-RPC 2.0 MCP 服务端；桌面窗口目前只能看演示数据 |
 | [`chronomac`](https://github.com/zxu756/ChronoMac) | `0.4.0` | macOS 14+ (`arm64`) | 记录 CPU、内存、网络的时间序列（可在应用内，也可用无界面的 `ChronoMac record` 命令），事后查是哪个进程造成了尖峰，包括已退出的进程（界面实时 `中文 / EN` 切换） |
